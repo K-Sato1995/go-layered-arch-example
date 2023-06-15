@@ -6,7 +6,8 @@
 
 ### ドメインの概念を表現するオブジェクト
 
-![Untitled](Domain%E9%A7%86%E5%8B%95%E3%83%9B%E3%82%99%E3%83%88%E3%83%A0%E3%82%A2%E3%83%83%E3%83%95%E3%82%9A%2080fa13a71ca642b98c4ba5791cae443b/Untitled.png)
+<img width="620" alt="image" src="https://github.com/K-Sato1995/go-layered-arch-example/assets/32632542/3358ed04-0ce3-4cd5-b2b9-409dc3c1ce67">
+
 
 [DDD基礎解説：Entity、ValueObjectってなんなんだ - little hands' lab](https://little-hands.hatenablog.com/entry/2018/12/09/entity-value-object)
 
