@@ -11,8 +11,6 @@
 
 [DDD基礎解説：Entity、ValueObjectってなんなんだ - little hands' lab](https://little-hands.hatenablog.com/entry/2018/12/09/entity-value-object)
 
-### ドメインサービス
-
 - Domain Service(サービス): 値オブジェクトやエンティティではうまく表現できない知識を取り扱う
 - Repository(リポジトリ): データの保存・復元といった永続化や再構築を担当する(RDBなどの具体的なデータ永続化を抽象化する役割)
 
