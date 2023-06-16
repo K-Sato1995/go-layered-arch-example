@@ -5,7 +5,7 @@ import (
 
 	"go-layerd-arc/usecase"
 
-	"go-layerd-arc/domain/repo"
+	repositoryImpl "go-layerd-arc/infrastructures/repositories"
 
 	"github.com/labstack/echo/v4"
 )
@@ -14,7 +14,7 @@ func Router() *echo.Echo {
 	e := echo.New()
 
 	articleUseCase := usecase.NewArticleUseCase(
-		repo.NewArticleRepository(),
+		repositoryImpl.NewArticleRepositoryImpl(),
 	)
 
 	e.GET("/articles", func(c echo.Context) error {
